@@ -233,7 +233,14 @@ th {
 }
 
 .w-icon-nav-menu:before {
-  content: "î˜‚";
+  content: "";
+}
+
+.menu-bread-icon {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
 }
 
 .w-icon-arrow-down:before,
