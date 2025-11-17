@@ -1,0 +1,48 @@
+.menu-button {
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media screen and (max-width: 991px) {
+  .w-nav[data-collapse="medium"] .nav-menu-wrapper {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1001;
+  }
+
+  .nav-menu-wrapper.w--open {
+    display: block !important;
+  }
+
+  .w-nav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: none;
+  }
+
+  .w-nav-overlay.w--open {
+    display: block !important;
+  }
+}
+
+.w-dropdown-list {
+  display: none;
+}
+
+.w-dropdown.w--open .w-dropdown-list {
+  display: block !important;
+}
+
+.w-dropdown-toggle {
+  cursor: pointer;
+  user-select: none;
+}
